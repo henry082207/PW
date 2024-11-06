@@ -1,0 +1,146 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: linear-gradient( to right, #708090,#778899 );
+}
+
+.conteiner{
+    display: flex;
+    font-family: "SUSE", sans-serif;
+}
+
+
+.noneColor{
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: "SUSE", sans-serif;
+}
+
+img{
+    box-shadow: rgb(34, 34, 34) 3px 2px;
+}
+
+button{
+    color: white;
+    background-image: linear-gradient( to right, #1C1C1C,#363636,#4F4F4F,#696969 );
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+a :hover{
+    transition: 0.3s;
+    box-shadow: black 5px 3px 3px;
+    color: white;
+    background-image: linear-gradient( to right, #586470,#454e57 );
+    padding: 10px;
+}
+
+a{
+    padding: 5px;
+}
+
+main{
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.color{
+    align-items: center;
+    justify-content: center;
+    color: #DCDCDC;
+    flex-wrap: wrap;
+    
+}
+
+div, img{
+    border-radius: 30px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:1000px){
+    .color{
+        padding-bottom: 55px;
+        font-size: 25px;
+    }
+
+    .noneColor{
+        font-size: 20px;
+    }
+
+    button{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 820px) {
+
+
+    .noneColor {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 25px;
+        flex-wrap: wrap;
+    }
+
+    button{
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .color {
+        font-size: 20px;
+        flex-wrap: wrap;
+    }
+    img{
+        height: 400px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 412px) {
+
+
+    .noneColor {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 30px;
+        flex-wrap: wrap;
+    }
+
+    .conteiner {
+        font-size: 25px;
+        flex-wrap: wrap;
+        list-style: none;
+    }
+
+    button{
+        font-size: 25px;
+        padding: 25px;
+    }
+
+    .color{
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+    }
+    
+    img{
+        height: 350px;
+        width: 300px;
+    }
+}

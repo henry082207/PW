@@ -1,0 +1,129 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    border: 3px solid #d70e0e;
+    overflow: hidden;
+}
+
+.header {
+    margin-top: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #d70e0e;
+}
+
+.foto-perfil {
+    margin-top: 2rem;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: 5px solid #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    color: #666;
+    font-size: 1.1em;
+    margin: 0;
+}
+
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-left: 5px solid #d70e0e;
+    background: linear-gradient(to right, #ffe0e0, #fff0f0);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    color: #d70e0e;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.job, .education {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.job p, .education p {
+    color: #555;
+    font-size: 1em;
+}
+
+.job ul, .education ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.job ul li {
+    list-style-type: disc;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+ul.skills {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.skills li {
+    background-color: #d70e0e;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 1em;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+ul.skills li:hover {
+    transform: scale(1.1);
+}
+
+a {
+    color: #d70e0e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
